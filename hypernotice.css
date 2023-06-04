@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    height: 100vh;
+    width: 100%;
+    background: url(/public/imG/210377440.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contain h1{
+    color: white;
+    font-size: 70px;
+    font-family: sans-serif;
+    position: absolute;
+   top: 250px;
+    left: 48%;
+    transform: translate(-50%);
+}
+.inner-contain{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(155deg, rgba(221, 36, 36, 0.666) 0%,rgba(0,23,149,0.6) 15%,rgba(149, 0, 0, 0.6) 50%,rgba(0, 26, 255, 0.419) 75%,rgba(0,23,149,0.6) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    /* transition: 2s; */
+}
+/* .container:hover .inner-container{
+    background-position:100% 100%;
+} */
+
+#not{
+    height: 75px;
+    width: 800px;
+   margin-top: 410px;
+   margin-left: 510px;
+   border-radius: 30px;
+   font-size: x-large;
+   border: none;
+   padding-left: 30px;
+}
+#button{
+    height: 65px;
+    border-radius: 30px;
+    border: none;
+    width: 140px;
+   font-size: x-large;
+   transition: 0.3s;
+   margin-left: 20px;
+   cursor: pointer;
+}
+#button:hover{
+    color: aliceblue;
+    background:black;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+    
+    .sidebar div {
+        width: 100%;
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+    }
+    
+    .sidebar  #btn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+    }
+    .cont{
+      margin-top: 50px;
+     
+  }
+  #men{
+      font-size:30px;
+      margin-right: 100px;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .container {
+    
+    display: block;
+    position: relative;
+    font-size: 20px;
+  }
+  
+  .checkmark {
+  
+    padding-left: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    cursor: pointer;
+  }
+  #main {
+    transition: margin-left .5s;
+    }
+    a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: black;}
+  
+  .checkmark span {
+    width: 34px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+
+  }
+  
+  .checkmark span:nth-child(1) {
+    top: 10%;
+  }
+  
+  .checkmark span:nth-child(2) {
+    top: 50%;
+  }
+  
+  .checkmark span:nth-child(3) {
+    top: 90%;
+  }
